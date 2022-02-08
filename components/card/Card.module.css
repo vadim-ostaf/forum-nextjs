@@ -1,0 +1,46 @@
+.cardTitle {
+    background-color: #ffc107;
+    padding: 10px 10px 10px;
+    border-width: 0px 0px 0 0px;
+    border-color: #FEBE10;
+    border-style: solid;
+}
+
+.cardTitle h3 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
+
+.cardItems {
+    padding: 9px;
+    background: #f1f1f1;
+}
+
+.cardItem {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 5px 9px rgb(0 0 0 / 10%);
+}
+
+.cardItemIcon {
+    /*width: 4%;*/
+    margin-right: 20px;
+}
+
+.cardItemContent {
+    width: 90%;
+}
+
+.cardItemInfo {
+    width: 10%;
+}
+
+.cardItemInfo p{
+    margin: 0;
+    font-size: 12px;
+    text-align: right;
+}

@@ -5,11 +5,11 @@ export default function Layout({ children }) {
   return (
     <>
       <root>
-      <Header/>
-        <div className="main">
-          {children}
-        </div>
-      <Footer></Footer>
+          <div className="main">
+            <Header/>
+            {children}
+          </div>
+        <Footer></Footer>
       </root>
     </>
   )

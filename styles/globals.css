@@ -29,3 +29,8 @@ root {
 .main {
   min-height: calc(100vh - 37px);
 }
+
+.page-item.active .page-link {
+  background-color: #ffc107;
+  border-color: #FEBE10;
+}

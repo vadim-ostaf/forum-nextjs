@@ -16,7 +16,6 @@ export default function AccordionItem() {
           <div>
             <a href="#"><span><BsFillGridFill/></span>Adam</a>
           </div>
-
         </div>
       </div>
       <div className={`${AccordionItemStyle.accordionItemInfo} ${AccordionItemStyle.accordionItemDiv}`}>
