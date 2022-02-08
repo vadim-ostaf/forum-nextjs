@@ -1,0 +1,87 @@
+.accordionItem {
+    border-radius: .25rem;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accordionItemIcon {
+    display: flex;
+    align-items: center;
+}
+
+.accordionItemInfo {
+    display: flex;
+    /*flex-direction: column;*/
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    width: 15%;
+}
+
+.accordionItemInfo p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+.accordionItemDiv {
+    padding: 20px;
+    border-left: 1px solid #f1f1f1;
+}
+
+.accordionItemDiv:nth-child(1) {
+    border-left: none;
+}
+
+.accordionItemMainDiv {
+    width: 60%;
+}
+
+.accordionItemMainDiv h4 {
+    font-size: 1rem;
+}
+
+.accordionItemMainDiv > div > a {
+    padding: 5px;
+
+}
+
+.accordionItemMainDiv > div {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    /*word-wrap: break-word;*/
+    /*word-break: break-all; !* более приоритетно *!*/
+}
+
+.accordionItemMainDiv > div > div {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.accordionItemMainDiv > div > div > a > span {
+    padding-right: 5px;
+}
+
+.accordionItemLastPost {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.accordionItemLastPost .accordionItemLastIcon {
+    margin-right: 10px;
+}
+.accordionItemLastText p {
+    margin: 0;
+}
+
+.accordionItemLastPost > p {
+    margin: 0;
+}

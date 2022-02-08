@@ -1,0 +1,34 @@
+.buttonNav {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.buttonNavButton:nth-child(1) {
+    margin-right: 2px;
+}
+
+.navbarBrandLogo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbarMenu {
+    border-radius: 0.25rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbarMenuNav:nth-child(1) {
+    margin-left: 15px;
+}
+
+.navbarMenuNav:nth-child(2) {
+    margin-right: 15px;
+}
+
+.header {
+    color: white;
+    margin-bottom: 20px;
+}
